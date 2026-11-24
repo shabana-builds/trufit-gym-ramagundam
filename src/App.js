@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import "./App.css";
-import "@/media.css";
+import "./media.css";
 import { ArrowUpRight, ChevronDown, ChevronRight, Clock3, Dumbbell, Instagram, MapPin, Menu, MessageCircle, Minus, Plus, ShoppingBag, Star, X, Zap } from "lucide-react";
 
 const WA = "916303040951";
