@@ -7,12 +7,29 @@ const WA = "916303040951";
 const GENERAL_WA_MESSAGE = "Hi TRUFIT GYM! I would like to know more about your gym, memberships, programs, and supplements.";
 const wa = (message = GENERAL_WA_MESSAGE) => `https://wa.me/${WA}?text=${encodeURIComponent(message)}`;
 const media = {
-  branchOneExterior: "https://customer-assets-jai6qajn.emergentagent.net/job_trufit-ramagundam--1io54i26/artifacts/fab7c9e3ef0591eb_b1_1.jpg.jpeg",
-  branchOneGym: "https://customer-assets-jai6qajn.emergentagent.net/job_trufit-ramagundam--1io54i26/artifacts/2665f1bc751fbfc0_b1_2.jpg.jpg",
-  branchOneOutdoor: "https://customer-assets-jai6qajn.emergentagent.net/job_trufit-ramagundam--1io54i26/artifacts/143cb48530bfa4a2_b1_4.jpg.jpg",
-  branchTwoGym: "https://customer-assets-jai6qajn.emergentagent.net/job_trufit-ramagundam--1io54i26/artifacts/31d5fe13ddc2b8ad_b2_3.jpg.jpeg",
-  workoutVideo: "https://customer-assets-jai6qajn.emergentagent.net/job_trufit-ramagundam--1io54i26/artifacts/3f5955b6c6f1174f_video1.mp4.mp4",
+  branchOneAdd: " https://i.ibb.co/hF34zrB1/b1-1-jpg.jpg",
+  branchOneInsideView1: "https://i.ibb.co/prfVzF36/b1-2-jpg.jpg",
+  branchOneInsideView2: "https://i.ibb.co/1pgnPgg/b1-3-jpg.jpg",
+  branchOneExterior: "https://i.ibb.co/jvZ1DfjG/b1-4-jpg.jpg",
+  branchOneGympic: "https://i.ibb.co/99LCD74w/b1-5-jpg.jpg",
+  branchOneOutdoor: "https://i.ibb.co/xtgqZDy8/b1-6-jpg.jpg",
+  branchOneOutdoorWorkout: "https://i.ibb.co/nN9H9KWR/b1-7-jpg.jpg",
+  branchOneAward1: "https://i.ibb.co/WNM70ytM/b1-8-jpg.jpg",
+  branchOneAward2: "https://i.ibb.co/Nd0XS4qP/b1-9-jpg.jpg",
+  branchTwoGym1: "https://i.ibb.co/QgnjLpP/b2-1-jpg.jpg",
+  branchTwoGym2: "https://i.ibb.co/wrwggwTN/b2-2-jpg.jpg",
+  branchTwoGym3: "https://i.ibb.co/zTRT76st/b2-3-jpg.jpg",
+  branchTwoGym4: "https://i.ibb.co/210phD0b/b2-4-jpg.jpg",
+  branchTwoGym5: "https://i.ibb.co/210phD0b/b2-4-jpg.jpg",
+  videos: [
+    { src: "https://files.catbox.moe/ip1j38.mp4", label: "01 / DR. ARCHANA (NTPC)", caption: "Health & lifestyle insights at Trufit" },
+    { src: "https://files.catbox.moe/issyjb.mp4", label: "02 / STRENGTH COACHING", caption: "Guided coaching & progressive strength" },
+    { src: "https://files.catbox.moe/e1tzb7.mp4", label: "03 / COUPLE & FAMILY WORKOUTS", caption: "Partner mobility & open-air functional exercises on our rooftop turf" },
+    { src: "https://files.catbox.moe/jsnf1a.mp4", label: "04 / ADV. PETTAM SRINIVAS (NTPC)", caption: "Morning sunlight, Vitamin D & daily fitness for all ages at Trufit" },
+    { src: "https://files.catbox.moe/dan250.mp4", label: "05 / CONSISTENCY & DISCIPLINE", caption: "Women-friendly & group outdoor conditioning sessions" },
+  ],
 };
+
 const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
 const products = [
