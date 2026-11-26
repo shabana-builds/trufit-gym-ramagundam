@@ -6,7 +6,7 @@ const WA = "916303040951";
 const GENERAL_WA_MESSAGE = "Hi TRUFIT GYM! I would like to know more about your gym, memberships, programs, and supplements.";
 const wa = (message = GENERAL_WA_MESSAGE) => `https://wa.me/${WA}?text=${encodeURIComponent(message)}`;
 const media = {
-  branchOneAdd: " https://i.ibb.co/hF34zrB1/b1-1-jpg.jpg",
+  branchOneAdd: "https://i.ibb.co/hF34zrB1/b1-1-jpg.jpg",
   branchOneInsideView1: "https://i.ibb.co/prfVzF36/b1-2-jpg.jpg",
   branchOneInsideView2: "https://i.ibb.co/1pgnPgg/b1-3-jpg.jpg",
   branchOneExterior: "https://i.ibb.co/jvZ1DfjG/b1-4-jpg.jpg",
@@ -19,7 +19,7 @@ const media = {
   branchTwoGym2: "https://i.ibb.co/wrwggwTN/b2-2-jpg.jpg",
   branchTwoGym3: "https://i.ibb.co/zTRT76st/b2-3-jpg.jpg",
   branchTwoGym4: "https://i.ibb.co/210phD0b/b2-4-jpg.jpg",
-  branchTwoGym5: "https://i.ibb.co/210phD0b/b2-4-jpg.jpg",
+  branchTwoGym5: "https://ibb.co",
   videos: [
     { src: "https://files.catbox.moe/ip1j38.mp4", label: "01 / DR. ARCHANA (NTPC)", caption: "Health & lifestyle insights at Trufit" },
     { src: "https://files.catbox.moe/issyjb.mp4", label: "02 / STRENGTH COACHING", caption: "Guided coaching & progressive strength" },
@@ -28,6 +28,7 @@ const media = {
     { src: "https://files.catbox.moe/dan250.mp4", label: "05 / CONSISTENCY & DISCIPLINE", caption: "Women-friendly & group outdoor conditioning sessions" },
   ],
 };
+
 
 const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
